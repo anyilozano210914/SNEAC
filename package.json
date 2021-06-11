@@ -1,0 +1,20 @@
+{
+  "name": "sneak-home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Assets/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch Assets/scss/style.scss Assets/css/style.css",
+    "webpack": "webpack"
+  },
+  "author": "Anyi Lozano",
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.12.7",
+    "webpack": "^5.38.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.7.0"
+  }
+}

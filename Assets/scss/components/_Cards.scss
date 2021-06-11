@@ -1,0 +1,627 @@
+.grid_layout {
+    margin-top: 50px;
+
+    .container {
+        display: grid;
+        grid-column-gap: 24px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        align-items: start;
+        width: 72%;
+        margin: 0 auto;
+
+        .cards {
+            display: block;
+            margin: 9px;
+
+            .card_1,
+            .card_2,
+            .card_3,
+            .card_4,
+            .card_5,
+            .card_6,
+            .card_7,
+            .card_8,
+            .card_9,
+            .card_10 {
+                width: 100%;
+                margin-bottom: 18px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .card_1 {
+                height: 377px;
+
+                img {
+                    display: block;
+                }
+
+                .hover_card1 {
+                    display: none;
+                }
+            }
+
+            .card_1:hover {
+                background-image: none;
+                opacity: 0.7;
+                border: none;
+
+                img {
+                    display: none;
+                }
+
+                .hover_card1 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 95%;
+                    height: 95%;
+                    border: 10px solid #e1e1e1;
+                    background-color: #ff6681;
+
+                    .title-card {
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: 5px;
+                        font-family: "Questrial", sans-serif;
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid $whiteColor;
+                        width: 300px;
+                        text-align: center;
+                    }
+
+                    .subtitle-card {
+                        font-family: "Questrial", sans-serif;
+                        letter-spacing: 5px;
+                        text-align: center;
+                        font-size: 25px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .card_2 {
+                height: 624px;
+
+                img {
+                    display: block;
+                }
+
+                .hover_card1 {
+                    display: none;
+                }
+            }
+
+            .card_2:hover {
+                background-image: none;
+                opacity: 0.7;
+                border: none;
+
+                img {
+                    display: none;
+                }
+
+                .hover_card2 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 95%;
+                    height: 95%;
+                    border: 10px solid #e1e1e1;
+                    background-color: #ff6681;
+
+                    .title-card {
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: 5px;
+                        font-family: "Questrial", sans-serif;
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid $whiteColor;
+                        width: 300px;
+                        text-align: center;
+                    }
+
+                    .subtitle-card {
+                        font-family: "Questrial", sans-serif;
+                        letter-spacing: 5px;
+                        text-align: center;
+                        font-size: 25px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .card_3 {
+                height: 524px;
+
+                img {
+                    display: block;
+                }
+
+                .hover_card3 {
+                    display: none;
+                }
+            }
+
+            .card_3:hover {
+                background-image: none;
+                opacity: 0.7;
+                border: none;
+
+                img {
+                    display: none;
+                }
+
+                .hover_card3 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 95%;
+                    height: 95%;
+                    border: 10px solid #e1e1e1;
+                    background-color: #ff6681;
+
+                    .title-card {
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: 5px;
+                        font-family: "Questrial", sans-serif;
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid $whiteColor;
+                        width: 300px;
+                        text-align: center;
+                    }
+
+                    .subtitle-card {
+                        font-family: "Questrial", sans-serif;
+                        letter-spacing: 5px;
+                        text-align: center;
+                        font-size: 25px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .card_4 {
+                height: 277px;
+
+                img {
+                    display: block;
+                }
+
+                .hover_card4 {
+                    display: none;
+                }
+            }
+
+            .card_4:hover {
+                background-image: none;
+                opacity: 0.7;
+                border: none;
+
+                img {
+                    display: none;
+                }
+
+                .hover_card4 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 95%;
+                    height: 95%;
+                    border: 10px solid #e1e1e1;
+                    background-color: #ff6681;
+
+                    .title-card {
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: 5px;
+                        font-family: "Questrial", sans-serif;
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid $whiteColor;
+                        width: 300px;
+                        text-align: center;
+                    }
+
+                    .subtitle-card {
+                        font-family: "Questrial", sans-serif;
+                        letter-spacing: 5px;
+                        text-align: center;
+                        font-size: 25px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .card_5 {
+                height: 524px;
+
+                img {
+                    display: block;
+                }
+
+                .hover_card5 {
+                    display: none;
+                }
+            }
+
+            .card_5:hover {
+                background-image: none;
+                opacity: 0.7;
+                border: none;
+
+                img {
+                    display: none;
+                }
+
+                .hover_card5 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 95%;
+                    height: 95%;
+                    border: 10px solid #e1e1e1;
+                    background-color: #ff6681;
+
+                    .title-card {
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: 5px;
+                        font-family: "Questrial", sans-serif;
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid $whiteColor;
+                        width: 300px;
+                        text-align: center;
+                    }
+
+                    .subtitle-card {
+                        font-family: "Questrial", sans-serif;
+                        letter-spacing: 5px;
+                        text-align: center;
+                        font-size: 25px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .card_6 {
+                height: 724px;
+
+                img {
+                    display: block;
+                }
+
+                .hover_card6 {
+                    display: none;
+                }
+            }
+
+            .card_6:hover {
+                background-image: none;
+                opacity: 0.7;
+                border: none;
+
+                img {
+                    display: none;
+                }
+
+                .hover_card6 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 95%;
+                    height: 95%;
+                    border: 10px solid #e1e1e1;
+                    background-color: #ff6681;
+
+                    .title-card {
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: 5px;
+                        font-family: "Questrial", sans-serif;
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid $whiteColor;
+                        width: 300px;
+                        text-align: center;
+                    }
+
+                    .subtitle-card {
+                        font-family: "Questrial", sans-serif;
+                        letter-spacing: 5px;
+                        text-align: center;
+                        font-size: 25px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .card_7 {
+                height: 624px;
+
+                img {
+                    display: block;
+                }
+
+                .hover_card7 {
+                    display: none;
+                }
+            }
+
+            .card_7:hover {
+                background-image: none;
+                opacity: 0.7;
+                border: none;
+
+                img {
+                    display: none;
+                }
+
+                .hover_card7 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 95%;
+                    height: 95%;
+                    border: 10px solid #e1e1e1;
+                    background-color: #ff6681;
+
+                    .title-card {
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: 5px;
+                        font-family: "Questrial", sans-serif;
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid $whiteColor;
+                        width: 300px;
+                        text-align: center;
+                    }
+
+                    .subtitle-card {
+                        font-family: "Questrial", sans-serif;
+                        letter-spacing: 5px;
+                        text-align: center;
+                        font-size: 25px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .card_8 {
+                height: 277px;
+
+                img {
+                    display: block;
+                }
+
+                .hover_card8 {
+                    display: none;
+                }
+            }
+
+            .card_8:hover {
+                background-image: none;
+                opacity: 0.7;
+                border: none;
+
+                img {
+                    display: none;
+                }
+
+                .hover_card8 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 95%;
+                    height: 95%;
+                    border: 10px solid #e1e1e1;
+                    background-color: #ff6681;
+
+                    .title-card {
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: 5px;
+                        font-family: "Questrial", sans-serif;
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid $whiteColor;
+                        width: 300px;
+                        text-align: center;
+                    }
+
+                    .subtitle-card {
+                        font-family: "Questrial", sans-serif;
+                        letter-spacing: 5px;
+                        text-align: center;
+                        font-size: 25px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .card_9 {
+                height: 304px;
+
+                img {
+                    display: block;
+                }
+
+                .hover_card9 {
+                    display: none;
+                }
+            }
+
+            .card_9:hover {
+                background-image: none;
+                opacity: 0.7;
+                border: none;
+
+                img {
+                    display: none;
+                }
+
+                .hover_card9 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 95%;
+                    height: 95%;
+                    border: 10px solid #e1e1e1;
+                    background-color: #ff6681;
+
+                    .title-card {
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: 5px;
+                        font-family: "Questrial", sans-serif;
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid $whiteColor;
+                        width: 300px;
+                        text-align: center;
+                    }
+
+                    .subtitle-card {
+                        font-family: "Questrial", sans-serif;
+                        letter-spacing: 5px;
+                        text-align: center;
+                        font-size: 25px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+
+            .card_10 {
+                height: 301px;
+
+
+                img {
+                    display: block;
+                }
+
+                .hover_card10 {
+                    display: none;
+                }
+            }
+
+            .card_10:hover {
+                background-image: none;
+                opacity: 0.7;
+                border: none;
+
+                img {
+                    display: none;
+                }
+
+                .hover_card10 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 95%;
+                    height: 95%;
+                    border: 10px solid #e1e1e1;
+                    background-color: #ff6681;
+
+                    .title-card {
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: 5px;
+                        font-family: "Questrial", sans-serif;
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid $whiteColor;
+                        width: 300px;
+                        text-align: center;
+                    }
+
+                    .subtitle-card {
+                        font-family: "Questrial", sans-serif;
+                        letter-spacing: 5px;
+                        text-align: center;
+                        font-size: 25px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.buton-we {
+    display: flex;
+    justify-content: center;
+
+    .button_barra-1 {
+        padding: 16px 60px;
+        background-color: #ff5574;
+        color: #fff;
+        font-family: "Questrial", sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+        width: auto;
+        height: auto;
+        border: none;
+        margin-top: 30px;
+    }
+}
+
+.copyright {
+    .copy {
+        display: flex;
+        justify-content: center;
+        text-transform: capitalize;
+        color: #838383;
+        font-family: "Questrial", sans-serif;
+        text-decoration: none;
+        margin-top: 70px;
+        letter-spacing: 4px;
+
+        .sneak {
+            color: #ff5574;
+            text-decoration: none;
+            font-weight: 600;
+            margin-right: 4px;
+            letter-spacing: 2px;
+            margin-left: 3px;
+        }
+    }
+}
+
+.icon_menu_1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    img {
+        width: 18px;
+        height: 19px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .grid_layout {
+        margin-top: 25px;
+
+        .container {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .grid_layout {
+
+        .container {
+            width: 100%;
+        }
+    }
+
+    .copyright {
+        .copy {
+            letter-spacing: 2px;
+            font-size: 12px;
+        }
+    }
+}
